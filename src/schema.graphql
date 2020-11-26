@@ -1,0 +1,7 @@
+input FileInput {
+  name: String!
+  url: String!
+  type: String!
+  size: Number!
+  lastModified: Number
+}
