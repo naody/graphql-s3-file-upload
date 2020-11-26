@@ -15,7 +15,7 @@ npm run start
 cp .env.example .env.local
 ```
 
-Since this test application doesn't have Auth flow, generate a valid `JWT` using AWS cognito UI or Postman and add it as an environment variable `REACT_APP_JWT=<your-cognito-jwt>` to `.env`
+Since this test application doesn't have Auth flow, generate a valid `JWT` using AWS cognito UI or Postman and add it as an environment variable `REACT_APP_JWT=<your-cognito-jwt>` to `.env.local`
 
 ---
 
